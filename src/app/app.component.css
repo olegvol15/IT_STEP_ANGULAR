@@ -5,3 +5,20 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  app-book-list {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  app-resume {
+    flex: 1;
+    max-width: 45%;
+    font-size: 1.8rem;
+  }
+  
