@@ -1,0 +1,16 @@
+<div class="library">
+  <h2>📚 Список книг</h2>
+  <div *ngFor="let book of books" class="book-card">
+    <div class="book-info">
+      <img [src]="book.cover" alt="Обложка книги {{ book.title }}" class="book-cover">
+      <img [src]="book.authorImage" alt="Автор книги {{ book.author }}" class="author-photo">
+    </div>
+    <h3>{{ book.title }}</h3>
+    <p><strong>Автор:</strong> {{ book.author }}</p>
+    <p>{{ book.description }}</p>
+  </div>
+</div>
+
+
+ 
+ 
